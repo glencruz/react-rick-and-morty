@@ -1,11 +1,14 @@
+import { Fragment } from "react"
 import "./App.scss"
+import Header from './components/Header'
 
 function App(){
     return (
-        <div className="app">
-            <h1>React + Webpack + SASS</h1>
-            <p>Mi primer proyecto de React con Webpack</p>
-        </div>
+        <Fragment>
+            <Header 
+                title="Rick and Morty API"
+            />
+        </Fragment>
     )
 }
 
